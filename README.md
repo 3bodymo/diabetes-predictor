@@ -14,3 +14,6 @@ pip install -r requirements.txt
 python3 app.py
 ```
 * You will see the project running on your local web server and ready to use.
+
+## Demo
+![](https://github.com/3bodymo/diabetes-predictor/blob/main/demo.gif)
