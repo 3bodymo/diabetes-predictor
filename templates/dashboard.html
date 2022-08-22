@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'styles/style.css') }}">
+    <title>Dashboard</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <div class="form__group field">
+            <input type="input" name="tp" class="form__field" placeholder="Times pregnant" id='name' required />
+            <br><input type="input" name="pg" class="form__field" placeholder="Plasma glucose" id='name' required />
+            <br><input type="input" name="dbp" class="form__field" placeholder="Diastolic blood pressure (mm/Hg)" id='name' required />
+            <br><input type="input" name="tst" class="form__field" placeholder="Triceps skinfold thickness (mm)" id='name' required />
+            <br><input type="input" name="si" class="form__field" placeholder="Serum insulin (mu U/ml)" id='name' required />
+            <br><input type="input" name="bmi" class="form__field" placeholder="BMI" id='name' required />
+            <br><input type="input" name="dpf" class="form__field" placeholder="Diabetes pedigree function" id='name' required />
+            <br><input type="input" name="age" class="form__field" placeholder="Age" id='name' required />
+        </div>
+        <div class="btn-group">
+            <button class="B1">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
